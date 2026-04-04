@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
@@ -126,17 +125,17 @@ const DATA = {
   h_s: { n:"S-row", k:"さ", type:"h", cards:[{k:"さ",r:"sa"},{k:"し",r:"shi"},{k:"す",r:"su"},{k:"せ",r:"se"},{k:"そ",r:"so"}], d:[{k:"ざ",r:"za"},{k:"じ",r:"ji"},{k:"ず",r:"zu"},{k:"ぜ",r:"ze"},{k:"ぞ",r:"zo"}], c:[{k:"しゃ",r:"sha"},{k:"しゅ",r:"shu"},{k:"しょ",r:"sho"}], dc:[{k:"じゃ",r:"ja"},{k:"じゅ",r:"ju"},{k:"じょ",r:"jo"}] },
   h_t: { n:"T-row", k:"た", type:"h", cards:[{k:"た",r:"ta"},{k:"ち",r:"chi"},{k:"つ",r:"tsu"},{k:"て",r:"te"},{k:"と",r:"to"}], d:[{k:"だ",r:"da"},{k:"ぢ",r:"ji"},{k:"づ",r:"zu"},{k:"で",r:"de"},{k:"ど",r:"do"}], c:[{k:"ちゃ",r:"cha"},{k:"ちゅ",r:"chu"},{k:"ちょ",r:"cho"}] },
   h_n: { n:"N-row", k:"な", type:"h", cards:[{k:"な",r:"na"},{k:"に",r:"ni"},{k:"ぬ",r:"nu"},{k:"ね",r:"ne"},{k:"の",r:"no"}], c:[{k:"にゃ",r:"nya"},{k:"にゅ",r:"nyu"},{k:"にょ",r:"nyo"}] },
-  h_h: { n:"H-row", k:"は", type:"h", cards:[{k:"は",r:"ha"},{k:"ひ",r:"hi"},{k:"ふ",r:"fu"},{k:"へ",r:"he"},{k:"ほ",r:"ho"}], d:[{k:"ば",r:"ba"},{k:"び",r:"bi"},{k:"ぶ",r:"bu"},{k:"べ",r:"be"},{k:"ぼ",r:"bo"}], p:[{k:"ぱ",r:"pa"},{k:"ぴ",r:"pi"},{k:"ぷ",r:"pu"},{k:"ぺ",r:"pe"},{k:"ぽ",r:"po"}], c:[{k:"ひゃ",r:"hya"},{k:"ひゅ",r:"hyu"},{k:"ひょ",r:"hyo"}], dc:[{k:"びゃ",r:"bya"},{k:"びゅ",r:"byu"},{k:"びょ",r:"byo"}], pc:[{k:"ぴゃ",r:"pya"},{k:"ぴゅ",r:"pyu"},{k:"ぴょ",r:"pya"}] },
+  h_h: { n:"H-row", k:"は", type:"h", cards:[{k:"は",r:"ha"},{k:"ひ",r:"hi"},{k:"ふ",r:"fu"},{k:"へ",r:"he"},{k:"ほ",r:"ho"}], d:[{k:"ば",r:"ba"},{k:"び",r:"bi"},{k:"ぶ",r:"bu"},{k:"べ",r:"be"},{k:"ぼ",r:"bo"}], p:[{k:"ぱ",r:"pa"},{k:"ぴ",r:"pi"},{k:"ぷ",r:"pu"},{k:"ぺ",r:"pe"},{k:"ぽ",r:"po"}], c:[{k:"ひゃ",r:"hya"},{k:"ひゅ",r:"hyu"},{k:"ひょ",r:"hyo"}], dc:[{k:"びゃ",r:"bya"},{k:"びゅ",r:"byu"},{k:"びょ",r:"byo"}], pc:[{k:"ぴゃ",r:"pya"},{k:"ぴゅ",r:"pyu"},{k:"ぴょ",r:"pyo"}] },
   h_m: { n:"M-row", k:"ま", type:"h", cards:[{k:"ま",r:"ma"},{k:"み",r:"mi"},{k:"む",r:"mu"},{k:"め",r:"me"},{k:"も",r:"mo"}], c:[{k:"みゃ",r:"mya"},{k:"みゅ",r:"myu"},{k:"みょ",r:"myo"}] },
   h_y: { n:"Y-row", k:"や", type:"h", cards:[{k:"や",r:"ya"},{k:"ゆ",r:"yu"},{k:"よ",r:"yo"}] },
   h_r: { n:"R-row", k:"ら", type:"h", cards:[{k:"ら",r:"ra"},{k:"り",r:"ri"},{k:"る",r:"ru"},{k:"れ",r:"re"},{k:"ろ",r:"ro"}], c:[{k:"りゃ",r:"rya"},{k:"りゅ",r:"ryu"},{k:"りょ",r:"ryo"}] },
   h_w: { n:"W-row", k:"わ", type:"h", cards:[{k:"わ",r:"wa"},{k:"を",r:"wo"},{k:"ん",r:"n"}] },
   k_v: { n:"Vowels", k:"ア", type:"k", cards:[{k:"ア",r:"a"},{k:"イ",r:"i"},{k:"ウ",r:"u"},{k:"エ",r:"e"},{k:"オ",r:"o"}] },
   k_k: { n:"K-row", k:"カ", type:"k", cards:[{k:"カ",r:"ka"},{k:"キ",r:"ki"},{k:"ク",r:"ku"},{k:"ケ",r:"ke"},{k:"コ",r:"ko"}], d:[{k:"ガ",r:"ga"},{k:"ギ",r:"gi"},{k:"グ",r:"gu"},{k:"ゲ",r:"ge"},{k:"ゴ",r:"go"}], c:[{k:"キャ",r:"kya"},{k:"キュ",r:"kyu"},{k:"キョ",r:"kyo"}], dc:[{k:"ギャ",r:"gya"},{k:"ギュ",r:"gyu"},{k:"ギョ",r:"gyo"}] },
-  k_s: { n:"S-row", k:"サ", type:"k", cards:[{k:"サ",r:"sa"},{k:"シ",r:"shi"},{k:"ス",r:"su"},{k:"セ",r:"se"},{k:"ソ",r:"so"}], d:[{k:"ザ",r:"za"},{k:"ジ",r:"ji"},{k:"ズ",r:"zu"},{k:"ゼ",r:"ze"},{k:"ぞ",r:"zo"}], c:[{k:"シャ",r:"sha"},{k:"シュ",r:"shu"},{k:"ショ",r:"sho"}], dc:[{k:"ジャ",r:"ja"},{k:"ジュ",r:"ju"},{k:"ジョ",r:"jo"}] },
+  k_s: { n:"S-row", k:"サ", type:"k", cards:[{k:"サ",r:"sa"},{k:"シ",r:"shi"},{k:"ス",r:"su"},{k:"セ",r:"se"},{k:"ソ",r:"so"}], d:[{k:"ザ",r:"za"},{k:"ジ",r:"ji"},{k:"ズ",r:"zu"},{k:"ゼ",r:"ze"},{k:"ゾ",r:"zo"}], c:[{k:"シャ",r:"sha"},{k:"シュ",r:"shu"},{k:"ショ",r:"sho"}], dc:[{k:"ジャ",r:"ja"},{k:"ジュ",r:"ju"},{k:"ジョ",r:"jo"}] },
   k_t: { n:"T-row", k:"タ", type:"k", cards:[{k:"タ",r:"ta"},{k:"チ",r:"chi"},{k:"ツ",r:"tsu"},{k:"テ",r:"te"},{k:"ト",r:"to"}], d:[{k:"ダ",r:"da"},{k:"ヂ",r:"ji"},{k:"ヅ",r:"zu"},{k:"デ",r:"de"},{k:"ド",r:"do"}], c:[{k:"チャ",r:"cha"},{k:"チュ",r:"chu"},{k:"チョ",r:"cho"}] },
   k_n: { n:"N-row", k:"ナ", type:"k", cards:[{k:"ナ",r:"na"},{k:"ニ",r:"ni"},{k:"ヌ",r:"nu"},{k:"ネ",r:"ne"},{k:"ノ",r:"no"}], c:[{k:"ニャ",r:"nya"},{k:"ニュ",r:"nyu"},{k:"ニョ",r:"nyo"}] },
-  k_h: { n:"H-row", k:"ハ", type:"k", cards:[{k:"ハ",r:"ha"},{k:"ヒ",r:"hi"},{k:"フ",r:"fu"},{k:"へ",r:"he"},{k:"ホ",r:"ho"}], d:[{k:"バ",r:"ba"},{k:"ビ",r:"bi"},{k:"ブ",r:"bu"},{k:"ベ",r:"be"},{k:"ボ",r:"bo"}], p:[{k:"パ",r:"pa"},{k:"ピ",r:"pi"},{k:"プ",r:"pu"},{k:"ペ",r:"pe"},{k:"ポ",r:"po"}], c:[{k:"ヒャ",r:"hya"},{k:"ヒュ",r:"hyu"},{k:"ヒョ",r:"hyo"}], dc:[{k:"ビャ",r:"bya"},{k:"ビュ",r:"byu"},{k:"ビョ",r:"byo"}], pc:[{k:"ピャ",r:"pya"},{k:"ピュ",r:"pyu"},{k:"ピょ",r:"pya"}] },
+  k_h: { n:"H-row", k:"ハ", type:"k", cards:[{k:"ハ",r:"ha"},{k:"ヒ",r:"hi"},{k:"フ",r:"fu"},{k:"ヘ",r:"he"},{k:"ホ",r:"ho"}], d:[{k:"バ",r:"ba"},{k:"ビ",r:"bi"},{k:"ブ",r:"bu"},{k:"ベ",r:"be"},{k:"ボ",r:"bo"}], p:[{k:"パ",r:"pa"},{k:"ピ",r:"pi"},{k:"プ",r:"pu"},{k:"ペ",r:"pe"},{k:"ポ",r:"po"}], c:[{k:"ヒャ",r:"hya"},{k:"ヒュ",r:"hyu"},{k:"ヒョ",r:"hyo"}], dc:[{k:"ビャ",r:"bya"},{k:"ビュ",r:"byu"},{k:"ビョ",r:"byo"}], pc:[{k:"ピャ",r:"pya"},{k:"ピュ",r:"pyu"},{k:"ピョ",r:"pyo"}] },
   k_m: { n:"M-row", k:"マ", type:"k", cards:[{k:"マ",r:"ma"},{k:"ミ",r:"mi"},{k:"ム",r:"mu"},{k:"メ",r:"me"},{k:"モ",r:"mo"}], c:[{k:"ミャ",r:"mya"},{k:"ミュ",r:"myu"},{k:"ミョ",r:"myo"}] },
   k_y: { n:"Y-row", k:"ヤ", type:"k", cards:[{k:"ヤ",r:"ya"},{k:"ユ",r:"yu"},{k:"ヨ",r:"yo"}] },
   k_r: { n:"R-row", k:"ラ", type:"k", cards:[{k:"ラ",r:"ra"},{k:"リ",r:"ri"},{k:"ル",r:"ru"},{k:"レ",r:"re"},{k:"ロ",r:"ro"}], c:[{k:"リャ",r:"rya"},{k:"リュ",r:"ryu"},{k:"リョ",r:"ryo"}] },
@@ -158,9 +157,9 @@ function speak(t) {
   audioTimeout = setTimeout(() => {
     const m = new SpeechSynthesisUtterance(t);
     m.lang = 'ja-JP';
-    m.rate = 0.25; 
+    m.rate = 0.5; 
     window.speechSynthesis.speak(m);
-  }, 500); 
+  }, 100); 
 }
 
 function init() {
@@ -200,9 +199,7 @@ function build() {
 }
 
 function startStudy() {
-  // Wake up speech engine for Desktop
   window.speechSynthesis.speak(new SpeechSynthesisUtterance('')); 
-  // Fix for sliding page bug
   window.scrollTo(0,0);
   queue = build().sort(()=>Math.random()-0.5);
   show('study'); next();
